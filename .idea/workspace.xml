@@ -52,7 +52,20 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SupplierExample">
+  <component name="RunManager" selected="Application.ConsumerExample">
+    <configuration name="ConsumerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapterEight.functionalInterfaces.ConsumerExample" />
+      <module name="Java-OCP-Code-Examples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapterEight.functionalInterfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LambdaExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapterEight.lambdas.LambdaExample" />
       <module name="Java-OCP-Code-Examples" />
@@ -92,6 +105,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConsumerExample" />
         <item itemvalue="Application.SupplierExample" />
         <item itemvalue="Application.LambdaExample" />
       </list>
