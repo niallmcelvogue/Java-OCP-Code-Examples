@@ -5,8 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a0b6480-168b-4c7b-b488-0b88bbabea85" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/chapterEight/functionalInterfaces/SupplierExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chapterEight/functionalInterfaces/BiConsumerExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chapterEight/functionalInterfaces/BiFunctionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chapterEight/functionalInterfaces/BiPredicateExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chapterEight/functionalInterfaces/BinaryOperatorExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chapterEight/functionalInterfaces/Climber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chapterEight/functionalInterfaces/FunctionAndUnaryOperatorExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chapterEight/functionalInterfaces/FunctionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chapterEight/functionalInterfaces/PredicateExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chapterEight/functionalInterfaces/UnaryOperatorExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chapterEight/lambdas/LambdaFinalExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/chapterEight/lambdas/LambdaExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chapterEight/lambdas/LambdaExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chapterEight/lambdas/LambdaExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapterEight/lambdas/LambdaExample.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +45,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BiConsumerExample.executor": "Run",
+    "Application.BiFunctionExample.executor": "Run",
+    "Application.BiPredicateExample.executor": "Run",
+    "Application.Climber.executor": "Run",
+    "Application.ConsumerExample.executor": "Run",
     "Application.LambdaExample.executor": "Run",
+    "Application.PredicateExample.executor": "Run",
     "Application.SupplierExample.executor": "Run",
+    "Application.example.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
@@ -52,9 +70,35 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ConsumerExample">
-    <configuration name="ConsumerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapterEight.functionalInterfaces.ConsumerExample" />
+  <component name="RunManager" selected="Application.LambdaExample">
+    <configuration name="BiConsumerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapterEight.functionalInterfaces.BiConsumerExample" />
+      <module name="Java-OCP-Code-Examples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapterEight.functionalInterfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BiFunctionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapterEight.functionalInterfaces.BiFunctionExample" />
+      <module name="Java-OCP-Code-Examples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapterEight.functionalInterfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BiPredicateExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapterEight.functionalInterfaces.BiPredicateExample" />
       <module name="Java-OCP-Code-Examples" />
       <extension name="coverage">
         <pattern>
@@ -79,8 +123,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SupplierExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapterEight.functionalInterfaces.SupplierExample" />
+    <configuration name="PredicateExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapterEight.functionalInterfaces.PredicateExample" />
       <module name="Java-OCP-Code-Examples" />
       <extension name="coverage">
         <pattern>
@@ -92,30 +136,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="Java-OCP-Code-Examples" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="Java-OCP-Code-Examples" />
-      <option name="filePath" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ConsumerExample" />
-        <item itemvalue="Application.SupplierExample" />
         <item itemvalue="Application.LambdaExample" />
+        <item itemvalue="Application.BiFunctionExample" />
+        <item itemvalue="Application.BiPredicateExample" />
+        <item itemvalue="Application.PredicateExample" />
+        <item itemvalue="Application.BiConsumerExample" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.24978.46" />
-        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-IU-243.24978.46" />
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
       </set>
     </attachedChunks>
   </component>
@@ -132,7 +167,9 @@
       <workItem from="1741885412787" duration="85000" />
       <workItem from="1741885501528" duration="23000" />
       <workItem from="1741885527405" duration="9000" />
-      <workItem from="1741885538589" duration="1042000" />
+      <workItem from="1741885538589" duration="6106000" />
+      <workItem from="1742491605858" duration="981000" />
+      <workItem from="1743092405142" duration="1682000" />
     </task>
     <servers />
   </component>

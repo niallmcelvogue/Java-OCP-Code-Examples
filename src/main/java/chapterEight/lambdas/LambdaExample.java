@@ -23,7 +23,6 @@ public class LambdaExample {
 
         print(animals, new CheckIfFlies());
         print(animals, Animal::canSwim);
-
     }
 
     private static void print(List<Animal> animals, CheckTrait trait) {
